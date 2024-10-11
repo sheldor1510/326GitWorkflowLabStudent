@@ -16,15 +16,14 @@ function calculateSquare(value) {
 // TODO: FIX reciprocal function
 function calculateReciprocal(value) {
     // Hint: Reciprocal is 1/x
-    let ret_val=0;
     if (value===0){
-    ret_val=NULL;
+    return null;
 }
-    else{
-    ret_val= 1/value;
+else{
+   return 1/value;
 }
-return ret_val;
 }
+
 
 // TODO: Implement natural log function
 function naturalLog(value) {
