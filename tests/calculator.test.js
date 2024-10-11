@@ -20,7 +20,7 @@ describe('Calculator Calculation Functions', function() {
 
 describe('Calculator Calculation Functions', function() {
     const res = calculator.calculateSquare(4);
-    it('should return 2', function() {
-        assert.strictEqual(res, 2);
+    it('should return 16', function() {
+        assert.strictEqual(res, 16);
     });
 });
