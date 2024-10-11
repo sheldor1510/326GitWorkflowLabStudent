@@ -27,5 +27,14 @@ describe('Calculate tangent function', function() {
     it('should return 1.6197751905438615', function() {
         assert.strictEqual(res1, 1.6197751905438615);
     });
-    
+
+// Test cosine function
+describe('Calculator Cosine Function', function() {
+    it('should return 1', function() {
+        assert.strictEqual(calculator.cosine(0), 1);
+    });
+
+    it('should return -1', function() {
+        assert.strictEqual(calculator.cosine(Math.PI), -1);
+    });
 });
