@@ -1,7 +1,7 @@
 // Adding keyboard support for calculator input
 document.addEventListener("keydown", function(event) {
     const key = event.key;
-
+//if conditions
     if (!isNaN(key)) {
         appendToDisplay(key);
     } else if (key === '+' || key === '-' || key === '*' || key === '/') {
